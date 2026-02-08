@@ -1,0 +1,195 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin: 0;
+    min-height: 100vh;
+
+    /*Fondo de la Imagen*/
+    background-image: url('../images/EMOTOR-Fondo.jpg');
+    background-size: cover;      /* Cubre todo el espacio sin deformarse */
+    background-position: center;  /* Centra la imagen de fondo */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.links{
+    display: block;
+    color: black;
+    box-shadow: 10px 4px 8px rgba(156, 99, 99, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    margin-inline: auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.links:hover{
+    color: yellow;
+    background-color: blue;
+}
+.contenido-logo {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-logo img {
+    width: 300px; /* Tamaño sugerido más equilibrado */
+    height: auto;
+    max-width: 400px;
+    /*transition: width 0.3s ease; Para futuras animaciones con JS */
+}
+
+.alerta{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #900;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    text-align: center;
+    background: orange;
+    width: auto;
+    font-size: 11px;
+    line-height: normal;
+}
+
+.contenido-base{
+    display: block;
+    color: black;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    min-width: 350px;
+    margin-inline: auto;
+}
+
+.contenido-base form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 5px;
+}
+
+.contenido-boton{
+    display: block;
+    color: black;
+    align-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.contenido-boton:hover{
+    color: yellow;
+    background-color: blue;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5);
+    border-radius: 8px;
+    max-width: 400px;
+    min-width: 350px;
+    margin-inline: auto;
+}
+
+.contenido-base2{
+    display: block;
+    color: black;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+    min-width: 600px;
+    margin-inline: auto;
+}
+
+.contenido-barra{
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.contenido-barra2{
+    border-color: black;
+    color: red;
+}
+
+.barra{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50px;
+    color: black;
+    height: fit-content;
+    justify-content: center;
+    text-transform: uppercase;
+    transform-origin: bottom;
+    transition: transform 145ms, background-color 0.3s;
+    width: fit-content;
+}
+
+.barra:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.barra2{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50px;
+    color: black;
+    height: fit-content;
+    justify-content: center;
+    text-transform: uppercase;
+    transform-origin: bottom;
+    transition: transform 145ms, background-color 0.3s;
+    width: fit-content;
+}
+
+.barra2:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.elementor-76 .elementor-element.elementor-element-5ad6c60>.elementor-background-overlay {
+    background-color: #030000;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.styles_content__65zEu{
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    gap: 10px;
+    justify-content: center;
+    padding: 8px 0;
+    position: relative;
+}
+
+/*.EMotor-1{
+    width: auto;
+}
+
+nav .section-item{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 0.7rem 0px;
+    transition: translate 300ms ease-out, box-shadow 300ms ease-out;
+}*/
+
+/*h1, h2 { text-align: center; }
+h1 { color:rgb(134, 12, 12); text-shadow: 0 0 10px rgb(94, 255, 0); }
+h2 { color:rgb(67, 1, 110); border: 3px solid white; padding: 6px; }}*/
